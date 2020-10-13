@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf); 
+    font-family: Lora-Regular;
+    src: url(../fonts/Lora/Lora-Regular.ttf);
+}
+html,body{
+    /* background-image: url(../img/bg.jpg);*/
+    background-color: #e8e2db;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+/* ---------- Navegador ---------- */
+nav{
+    background-color: #1f3c88;    
+}
+nav a{
+    color: white;
+}
+nav a i{
+    letter-spacing: 15px;
+}
+nav a:hover{
+    color:  #ffe867;
+}
+/* ---------- Footer ---------- */
+.card-footer{
+      background-color: #1f3c88; 
+}
+.h4{
+    color: white;
+}
+/* ---------- Registro/Body ---------- */
+.h1-registro{        
+    text-align: center;
+}
+.h1_login{
+    color: white;
+}
+.container{    
+    height: 100%;
+    align-content: center;
+}
+.card{
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 420px;
+    background-color: rgba(0,0,0,0.3) !important;
+}
+.input-group-prepend span{
+    width: 50px;
+    background-color:  #1f3c88;
+    color: white;
+    border:0 !important;
+}
+.aceptar_registro{
+    color: white;
+    background-color: #1f3c88;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 47%;    
+}
+.aceptar_registro:hover{
+    color: black;
+    background-color: #ffe867;
+}
+.atras_registro{
+    color: white;
+    background-color: #1f3c88;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 47%; 
+}
+.atras_registro:hover{
+    color: black;
+    background-color: #ffe867;
+}
+.aceptar_principal{
+    color: white;
+    background-color: #1f3c88;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 37%; 
+}
+.aceptar_principal:hover{
+    color: black;
+    background-color: #ffe867;
+}
+.a_principal{
+    color: white;
+}
+.a_principal:hover{
+    color: #ffe867;
+}
+.miniatura{
+    width: 100px;
+    height: 100px;
+}
+.log1 {
+     background-color:#a5aeff;
+}
